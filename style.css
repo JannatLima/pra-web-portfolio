@@ -1,0 +1,64 @@
+body{
+    font-family: 'Peddana', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: #808080;
+}
+.name-highlight{
+    color: rgb(221, 76, 100);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
+.top-banner{
+    background-image: url("../pra-web-portfolio/personal-website/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.hire-me-button{
+    text-decoration: none;
+    background-color: rgb(221, 76, 100);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.biography-banner{
+    background-image: url(../pra-web-portfolio/personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.latest-work-area{
+    background-image: url(../pra-web-portfolio/personal-website/latest-work-bg.png);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.latest-work-area img{
+    width: 380px;
+    margin: 10px 20px;
+}
+.latest-work-area img:hover{
+    filter: drop-shadow(100%);
+    transform: scale(1.1);
+}
+.client-say{
+    text-align: center;
+    background-image: url(../pra-web-portfolio/personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+}
+footer p{
+    text-align: center;
+}
